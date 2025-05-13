@@ -1,0 +1,15 @@
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.GeneratedMSBuildEditorConfig.editorconfig
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.AssemblyInfoInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.AssemblyInfo.cs
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.csproj.CoreCompileInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.sourcelink.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/bin/Debug/net8.0/Suma
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/bin/Debug/net8.0/Suma.deps.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/bin/Debug/net8.0/Suma.runtimeconfig.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/bin/Debug/net8.0/Suma.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/bin/Debug/net8.0/Suma.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/refint/Suma.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/Suma.genruntimeconfig.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Suma/obj/Debug/net8.0/ref/Suma.dll

@@ -1,0 +1,15 @@
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/bin/Debug/net8.0/Hola_Mundo
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/bin/Debug/net8.0/Hola_Mundo.deps.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/bin/Debug/net8.0/Hola_Mundo.runtimeconfig.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/bin/Debug/net8.0/Hola_Mundo.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/bin/Debug/net8.0/Hola_Mundo.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.GeneratedMSBuildEditorConfig.editorconfig
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.AssemblyInfoInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.AssemblyInfo.cs
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.csproj.CoreCompileInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.sourcelink.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/refint/Hola_Mundo.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/Hola_Mundo.genruntimeconfig.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/12_may_25/practicas_C#/Hola_Mundo/obj/Debug/net8.0/ref/Hola_Mundo.dll
