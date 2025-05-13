@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Suma")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CalculadorIMC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d463f4dc8a760721cfe0e946b6be2765e191428c")]
-[assembly: System.Reflection.AssemblyProductAttribute("Suma")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Suma")]
+[assembly: System.Reflection.AssemblyProductAttribute("CalculadorIMC")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CalculadorIMC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

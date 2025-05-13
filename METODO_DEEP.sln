@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "paginas", "paginas", "{0BA39DD9-57AF-1A37-FC6E-FDAEEDC38FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_may_25", "12_may_25", "{13B16231-33DB-995C-8DE9-6F821A7C4A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "practicas_C#", "practicas_C#", "{DA7C6D95-44C6-5095-11B1-821633469737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hola_Mundo", "paginas\12_may_25\practicas_C#\Hola_Mundo\Hola_Mundo.csproj", "{BFD1A1F2-5934-0265-FDDD-326F5D2A0712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suma", "paginas\12_may_25\practicas_C#\Suma\Suma.csproj", "{E74E4228-191D-223D-D801-6355C238312D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD1A1F2-5934-0265-FDDD-326F5D2A0712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD1A1F2-5934-0265-FDDD-326F5D2A0712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD1A1F2-5934-0265-FDDD-326F5D2A0712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD1A1F2-5934-0265-FDDD-326F5D2A0712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74E4228-191D-223D-D801-6355C238312D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74E4228-191D-223D-D801-6355C238312D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74E4228-191D-223D-D801-6355C238312D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74E4228-191D-223D-D801-6355C238312D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13B16231-33DB-995C-8DE9-6F821A7C4A5A} = {0BA39DD9-57AF-1A37-FC6E-FDAEEDC38FF4}
+		{DA7C6D95-44C6-5095-11B1-821633469737} = {13B16231-33DB-995C-8DE9-6F821A7C4A5A}
+		{BFD1A1F2-5934-0265-FDDD-326F5D2A0712} = {DA7C6D95-44C6-5095-11B1-821633469737}
+		{E74E4228-191D-223D-D801-6355C238312D} = {DA7C6D95-44C6-5095-11B1-821633469737}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {582BEFEF-CDC7-438B-9F67-0704CAE178F3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Study - Día 1</title>
+    <style>
+        :root {
+            --bg-color: #1e1e1e;
+            --text-color: #e0e0e0;
+            --primary-color: #569cd6;
+            --secondary-color: #9cdcfe;
+            --success-color: #608b4e;
+            --warning-color: #d7ba7d;
+            --error-color: #f44747;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            line-height: 1.5;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .prompt {
+            color: var(--primary-color);
+        }
+        
+        .command {
+            color: var(--secondary-color);
+        }
+        
+        .comment {
+            color: #6a9955;
+        }
+        
+        .string {
+            color: #ce9178;
+        }
+        
+        .header {
+            color: var(--primary-color);
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            border-left: 3px solid #333;
+            padding-left: 15px;
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+        
+        .task {
+            margin-bottom: 15px;
+        }
+        
+        .checkbox {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border: 1px solid #555;
+            margin-right: 10px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        
+        .checkbox.checked {
+            background-color: var(--success-color);
+            position: relative;
+        }
+        
+        .checkbox.checked::after {
+            content: "✓";
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .code-block {
+            background-color: #252525;
+            padding: 15px;
+            border-radius: 3px;
+            margin: 10px 0;
+            overflow-x: auto;
+            border-left: 3px solid var(--primary-color);
+        }
+        
+        .exercise {
+            background-color: #252525;
+            padding: 15px;
+            border-radius: 3px;
+            margin: 15px 0;
+            border-left: 3px solid var(--warning-color);
+        }
+        
+        .exercise-title {
+            color: var(--warning-color);
+            margin-bottom: 10px;
+        }
+        
+        .btn {
+            background-color: #333;
+            color: var(--text-color);
+            border: none;
+            padding: 5px 10px;
+            margin-right: 5px;
+            cursor: pointer;
+            font-family: inherit;
+            border-radius: 3px;
+        }
+        
+        .btn:hover {
+            background-color: #3e3e3e;
+        }
+        
+        .btn-copy {
+            float: right;
+            background-color: #333;
+        }
+        
+        .progress-bar {
+            height: 5px;
+            background-color: #333;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        
+        .progress {
+            height: 100%;
+            background-color: var(--success-color);
+            width: 25%;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                font-size: 14px;
+            }
+            
+            .code-block, .exercise {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>> Día 1 - Configuración y Fundamentos Iniciales</h1>
+        <p class="comment">// 12 de Mayo, 2025 - C, C++ y C#</p>
+    </div>
+    
+    <div class="progress-bar">
+        <div class="progress" id="global-progress"></div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">> Introducción</h2>
+        <p><span class="prompt">Objetivo:</span> Preparar el entorno de desarrollo y aprender los conceptos más básicos de C, C++ y C#.</p>
+        <p class="comment">/* Dedica tiempo a configurar bien tu entorno, esto te ahorrará problemas más adelante */</p>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">> 1. Configuración del entorno (1-2 horas)</h2>
+        
+        <div class="task">
+            <div class="checkbox checked" data-task="task1"></div>
+            <span>Instalar los compiladores y herramientas necesarias:</span>
+            <ul>
+                <li><span class="prompt">Para C/C++:</span>
+                    <ul>
+                        <li>Windows: Instalar MinGW o Visual Studio</li>
+                        <li>Linux/macOS: Usar gcc y g++</li>
+                    </ul>
+                </li>
+                <li><span class="prompt">Para C#:</span>
+                    <ul>
+                        <li>Instalar Visual Studio (Community Edition)</li>
+                        <li>Alternativa: .NET SDK + VS Code</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="task">
+            <div class="checkbox checked" data-task="task2"></div>
+            <span>Verificar instalación:</span>
+            <div class="code-block">
+                <button class="btn btn-copy">Copiar</button>
+                <span class="comment"># Para C:</span><br>
+                <span class="command">gcc --version</span><br><br>
+                <span class="comment"># Para C++:</span><br>
+                <span class="command">g++ --version</span><br><br>
+                <span class="comment"># Para C#:</span><br>
+                <span class="command">dotnet --version</span>
+            </div>
+        </div>
+        
+        <div class="task">
+            <div class="checkbox checked" data-task="task3"></div>
+            <span>Configurar un editor de código (opcional):</span>
+            <ul>
+                <li>VS Code con extensiones:
+                    <ul>
+                        <li>C/C++ (Microsoft)</li>
+                        <li>C# (OmniSharp)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">> 2. Primeros pasos en C (2-3 horas)</h2>
+        
+        <p class="prompt">Temas y subtemas:</p>
+        <ul>
+            <li><span class="command">Sintaxis básica</span>
+                <ul>
+                    <li>Estructura de un programa en C (main(), #include &lt;stdio.h&gt;)</li>
+                    <li>Comentarios (// y /* */)</li>
+                </ul>
+            </li>
+            <li><span class="command">Variables y tipos de datos</span>
+                <ul>
+                    <li>int, float, char, double</li>
+                    <li>Declaración e inicialización</li>
+                </ul>
+            </li>
+            <li><span class="command">Entrada y salida básica</span>
+                <ul>
+                    <li>printf() para imprimir</li>
+                    <li>scanf() para leer datos</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <p class="prompt">Ejercicios prácticos:</p>
+        
+        <div class="exercise">
+            <div class="exercise-title">🛠 1. "Hola Mundo" en C:</div>
+            <div class="code-block">
+                <button class="btn btn-copy">Copiar</button>
+                <span class="command">#include</span> <span class="string">&lt;stdio.h&gt;</span><br>
+                <span class="command">int</span> main() {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="command">printf</span>(<span class="string">"Hola, mundo!\n"</span>);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="command">return</span> 0;<br>
+                }
+            </div>
+            <div class="task">
+                <div class="checkbox checked" data-task="exercise1"></div>
+                <span>Marcar como completado</span>
+                <button class="btn">Explicación</button>
+            </div>
+        </div>
+        
+        <div class="exercise">
+            <div class="exercise-title">🛠 2. Programa que suma dos números:</div>
+            <div class="code-block">
+                <button class="btn btn-copy">Copiar</button>
+                <span class="command">#include</span> <span class="string">&lt;stdio.h&gt;</span><br>
+                <span class="command">int</span> main() {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="command">int</span> a, b;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="command">printf</span>(<span class="string">"Ingresa dos números: "</span>);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="command">scanf</span>(<span class="string">"%d %d"</span>, &a, &b);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="command">printf</span>(<span class="string">"La suma es: %d\n"</span>, a + b);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span class="command">return</span> 0;<br>
+                }
+            </div>
+            <div class="task">
+                <div class="checkbox" data-task="exercise2"></div>
+                <span>Marcar como completado</span>
+                <button class="btn">Explicación</button>
+                <button class="btn">Solución</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">> 5. Proyecto Final del Día (1-2 horas)</h2>
+        
+        <p class="prompt">Mini-Proyecto: "Calculadora Básica" en los 3 lenguajes</p>
+        <p><span class="command">Objetivo:</span> Aplicar lo aprendido en un proyecto sencillo.</p>
+        
+        <p class="prompt">Consigna:</p>
+        <p>Crear un programa que pida dos números y realice las 4 operaciones básicas (+, -, *, /).</p>
+        
+        <div class="task">
+            <div class="checkbox" data-task="cProject"></div>
+            <span class="command">En C:</span> Usar printf/scanf y funciones separadas para cada operación.
+        </div>
+        
+        <div class="task">
+            <div class="checkbox" data-task="cppProject"></div>
+            <span class="command">En C++:</span> Usar cin/cout y sobrecarga de funciones (opcional).
+        </div>
+        
+        <div class="task">
+            <div class="checkbox" data-task="csProject"></div>
+            <span class="command">En C#:</span> Usar Console.ReadLine() y switch-case para elegir la operación.
+        </div>
+        
+        <p class="comment">/* Desafío adicional: Implementar la calculadora con interfaz gráfica en C# */</p>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">> 6. Resumen del Día</h2>
+        <ul>
+            <li>✔ Configuración del entorno (compiladores, editores)</li>
+            <li>✔ Fundamentos de C (variables, printf, scanf)</li>
+            <li>✔ Fundamentos de C++ (cout, cin, namespaces)</li>
+            <li>✔ Fundamentos de C# (Console.WriteLine, tipos de datos)</li>
+            <li>✔ Proyecto integrador: Calculadora básica en 3 lenguajes</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">> ¿Qué viene mañana?</h2>
+        <p><span class="command">Día 2 (13/05):</span> Control de flujo (if-else, bucles) en C, C++ y C#.</p>
+        <p><span class="command">Ejercicios:</span> Juego "Adivina el número" en C++ y más.</p>
+        
+        <p class="comment">/* Hoy sentamos las bases. Mañana profundizaremos en estructuras de control. ¿Listo para el día 2? */</p>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Manejar checkboxes
+            const checkboxes = document.querySelectorAll('.checkbox');
+            
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('click', function() {
+                    this.classList.toggle('checked');
+                    updateProgress();
+                });
+            });
+            
+            // Botones para copiar código
+            const copyButtons = document.querySelectorAll('.btn-copy');
+            
+            copyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const codeBlock = this.parentElement;
+                    const textToCopy = codeBlock.textContent.replace('Copiar', '').trim();
+                    
+                    navigator.clipboard.writeText(textToCopy)
+                        .then(() => {
+                            const originalText = this.textContent;
+                            this.textContent = 'Copiado!';
+                            setTimeout(() => {
+                                this.textContent = originalText;
+                            }, 2000);
+                        });
+                });
+            });
+            
+            // Actualizar progreso
+            function updateProgress() {
+                const totalTasks = document.querySelectorAll('.checkbox').length;
+                const completedTasks = document.querySelectorAll('.checkbox.checked').length;
+                const progressPercentage = Math.round((completedTasks / totalTasks) * 100);
+                
+                const progressBar = document.getElementById('global-progress');
+                progressBar.style.width = progressPercentage + '%';
+                
+                // Cambiar color según progreso
+                if (progressPercentage < 30) {
+                    progressBar.style.backgroundColor = '#f44747'; // Rojo
+                } else if (progressPercentage < 70) {
+                    progressBar.style.backgroundColor = '#d7ba7d'; // Amarillo
+                } else {
+                    progressBar.style.backgroundColor = '#608b4e'; // Verde
+                }
+            }
+            
+            // Inicializar progreso
+            updateProgress();
+        });
+    </script>
+</body>
+</html>

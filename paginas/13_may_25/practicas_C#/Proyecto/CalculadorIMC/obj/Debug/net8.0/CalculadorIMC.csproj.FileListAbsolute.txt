@@ -1,0 +1,15 @@
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.GeneratedMSBuildEditorConfig.editorconfig
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.AssemblyInfoInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.AssemblyInfo.cs
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.csproj.CoreCompileInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.sourcelink.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/bin/Debug/net8.0/CalculadorIMC
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/bin/Debug/net8.0/CalculadorIMC.deps.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/bin/Debug/net8.0/CalculadorIMC.runtimeconfig.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/bin/Debug/net8.0/CalculadorIMC.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/bin/Debug/net8.0/CalculadorIMC.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/refint/CalculadorIMC.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/CalculadorIMC.genruntimeconfig.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/13_may_25/practicas_C#/Proyecto/CalculadorIMC/obj/Debug/net8.0/ref/CalculadorIMC.dll
