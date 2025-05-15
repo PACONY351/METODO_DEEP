@@ -1,0 +1,15 @@
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/bin/Debug/net8.0/Funciones
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/bin/Debug/net8.0/Funciones.deps.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/bin/Debug/net8.0/Funciones.runtimeconfig.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/bin/Debug/net8.0/Funciones.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/bin/Debug/net8.0/Funciones.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.GeneratedMSBuildEditorConfig.editorconfig
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.AssemblyInfoInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.AssemblyInfo.cs
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.csproj.CoreCompileInputs.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.sourcelink.json
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/refint/Funciones.dll
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.pdb
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/Funciones.genruntimeconfig.cache
+/home/francisco/Repo_De_Proyectos/METODO_DEEP/paginas/14_may_25/practicas_C#/Funciones/obj/Debug/net8.0/ref/Funciones.dll
